@@ -33,6 +33,9 @@ scene.add(directionalLight);
 /**
  * objects
  */
+// textures
+const textureLoader = new THREE.TextureLoader();
+const gradientTexture = textureLoader.load('./textures/gradients/3.png');
 
 const material = new THREE.MeshToonMaterial({ color: parameters.materialColor});
 
